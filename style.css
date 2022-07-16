@@ -63,3 +63,74 @@ tr, td {
     justify-content: center;
     margin-top: 40px;
 }
+
+/*Cells and rows*/
+
+.first-cell:nth-of-type(even) {
+    background-color: #DFD7C8;
+}
+
+.first-cell:nth-of-type(odd) {
+    background-color: #674736;
+}
+
+.second-cell:nth-of-type(odd){
+    background-color: #DFD7C8;
+}
+
+.second-cell:nth-of-type(even){
+    background-color: #674736;
+}
+
+.third-cell:nth-of-type(even){
+    background-color: #DFD7C8;
+}
+
+.third-cell:nth-of-type(odd){
+    background-color: #674736;
+}
+
+.fourth-cell:nth-of-type(even){
+    background-color: #674736;
+}
+
+.fourth-cell:nth-of-type(odd){
+    background-color: #DFD7C8;
+}
+
+.fifth-cell:nth-of-type(odd){
+    background-color: #674736;
+}
+
+.fifth-cell:nth-of-type(even){
+    background-color: #DFD7C8;
+}
+
+.sixth-cell:nth-of-type(odd){
+    background-color: #DFD7C8;
+}
+
+.sixth-cell:nth-of-type(even){
+    background-color: #674736;
+}
+
+.seventh-cell:nth-of-type(odd){
+    background-color: #674736;
+}
+
+.seventh-cell:nth-of-type(even){
+    background-color: #DFD7C8;
+}
+
+.eighth-cell:nth-of-type(odd){
+    background-color: #DFD7C8;
+}
+
+.eighth-cell:nth-of-type(even){
+    background-color: #674736;
+}
+
+
+
+
+
