@@ -30,6 +30,11 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 ol, ul {
 	list-style: none;
@@ -48,6 +53,13 @@ table {
 }
 
 tr, td {
-    padding: 20px;
+    padding: 30px;
     border: 1px solid black;
+}
+
+.board {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
 }
