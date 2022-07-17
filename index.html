@@ -13,138 +13,138 @@
     <script src="app.js" defer></script>
 
     <h1 id="logo">Checkers!</h1>
-    <p id="currentTurn">Current Turn: <span class="black" id="player"></span></p>
+    <p id="currentTurn">Current Turn: <span class="red" id="player"></span></p>
     <div class="board">
         <h2>Player 1's Pieces won</h2>
 
         <table>
             <tr id="first-row">
-                <td class="first-cell"></td>
-                <td class="first-cell">
+                <td class="first-cell" id="1"></td>
+                <td class="first-cell" id="2">
                     <div class="black-piece"></div>
                 </td>
-                <td class="first-cell"></td>
-                <td class="first-cell">
+                <td class="first-cell" id="3"></td>
+                <td class="first-cell" id="4">
                     <div class="black-piece"></div>
                 </td>
-                <td class="first-cell"></td>
-                <td class="first-cell">
+                <td class="first-cell" id="5"></td>
+                <td class="first-cell" id="6">
                     <div class="black-piece"></div>
                 </td>
-                <td class="first-cell"></td>
-                <td class="first-cell">
+                <td class="first-cell" id="7"></td>
+                <td class="first-cell" id="8">
                     <div class="black-piece"></div>
                 </td>
             </tr>
             <tr id="second-row">
-                <td class="second-cell">
+                <td class="second-cell" id="9">
                     <div class="black-piece"></div>
                 </td>
-                <td class="second-cell"></td>
-                <td class="second-cell">
+                <td class="second-cell" id="10"></td>
+                <td class="second-cell" id="11">
                     <div class="black-piece"></div>
                 </td>
-                <td class="second-cell"></td>
-                <td class="second-cell">
+                <td class="second-cell" id="12"></td>
+                <td class="second-cell" id="13">
                     <div class="black-piece"></div>
                 </td>
-                <td class="second-cell"></td>
-                <td class="second-cell">
+                <td class="second-cell" id="14"></td>
+                <td class="second-cell" id="15">
                     <div class="black-piece"></div>
                 </td>
-                <td class="second-cell"></td>
+                <td class="second-cell" id="16"></td>
             </tr>
             <tr id="third-row">
-                <td class="third-cell"></td>
-                <td class="third-cell">
+                <td class="third-cell" id="17"></td>
+                <td class="third-cell" id="18">
                     <div class="black-piece"></div>
                 </td>
-                <td class="third-cell"></td>
-                <td class="third-cell">
+                <td class="third-cell" id="19"></td>
+                <td class="third-cell" id="20">
                     <div class="black-piece"></div>
                 </td>
-                <td class="third-cell"></td>
-                <td class="third-cell">
+                <td class="third-cell" id="21"></td>
+                <td class="third-cell" id="22">
                     <div class="black-piece"></div>
                 </td>
-                <td class="third-cell"></td>
-                <td class="third-cell">
+                <td class="third-cell" id="23"></td>
+                <td class="third-cell" id="24">
                     <div class="black-piece"></div>
                 </td>
             </tr>
             <tr id="fourth-row">
-                <td class="fourth-cell"></td>
-                <td class="fourth-cell"></td>
-                <td class="fourth-cell"></td>
-                <td class="fourth-cell"></td>
-                <td class="fourth-cell"></td>
-                <td class="fourth-cell"></td>
-                <td class="fourth-cell"></td>
-                <td class="fourth-cell"></td>
+                <td class="fourth-cell" id="25"></td>
+                <td class="fourth-cell" id="26"></td>
+                <td class="fourth-cell" id="27"></td>
+                <td class="fourth-cell" id="28"></td>
+                <td class="fourth-cell" id="29"></td>
+                <td class="fourth-cell" id="30"></td>
+                <td class="fourth-cell" id="31"></td>
+                <td class="fourth-cell" id="32"></td>
             </tr>
             <tr id="fifth-row">
-                <td class="fifth-cell"></td>
-                <td class="fifth-cell"></td>
-                <td class="fifth-cell"></td>
-                <td class="fifth-cell"></td>
-                <td class="fifth-cell"></td>
-                <td class="fifth-cell"></td>
-                <td class="fifth-cell"></td>
-                <td class="fifth-cell"></td>
+                <td class="fifth-cell" id="33"></td>
+                <td class="fifth-cell" id="34"></td>
+                <td class="fifth-cell" id="35"></td>
+                <td class="fifth-cell" id="36"></td>
+                <td class="fifth-cell" id="37"></td>
+                <td class="fifth-cell" id="38"></td>
+                <td class="fifth-cell" id="39"></td>
+                <td class="fifth-cell" id="40"></td>
             </tr>
             <tr id="sixth-row">
-                <td class="sixth-cell">
+                <td class="sixth-cell" id="41">
                     <div class="red-piece"></div>
                 </td>
-                <td class="sixth-cell"></td>
-                <td class="sixth-cell">
+                <td class="sixth-cell" id="42"></td>
+                <td class="sixth-cell" id="43">
                     <div class="red-piece"></div>
                 </td>
-                <td class="sixth-cell"></td>
-                <td class="sixth-cell">
+                <td class="sixth-cell" id="44"></td>
+                <td class="sixth-cell" id="45">
                     <div class="red-piece"></div>
                 </td>
-                <td class="sixth-cell"></td>
-                <td class="sixth-cell">
+                <td class="sixth-cell" id="46"></td>
+                <td class="sixth-cell" id="47">
                     <div class="red-piece"></div>
                 </td>
-                <td class="sixth-cell"></td>
+                <td class="sixth-cell" id="48"></td>
             </tr>
             <tr id="seventh-row">
-                <td class="seventh-cell"></td>
-                <td class="seventh-cell">
+                <td class="seventh-cell" id="49"></td>
+                <td class="seventh-cell" id="50">
                     <div class="red-piece"></div>
                 </td>
-                <td class="seventh-cell"></td>
-                <td class="seventh-cell">
+                <td class="seventh-cell" id="51"></td>
+                <td class="seventh-cell" id="52">
                     <div class="red-piece"></div>
                 </td>
-                <td class="seventh-cell"></td>
-                <td class="seventh-cell">
+                <td class="seventh-cell" id="53"></td>
+                <td class="seventh-cell" id="54">
                     <div class="red-piece"></div>
                 </td>
-                <td class="seventh-cell"></td>
-                <td class="seventh-cell">
+                <td class="seventh-cell" id="55"></td>
+                <td class="seventh-cell" id="56">
                     <div class="red-piece"></div>
                 </td>
             </tr>
             <tr id="eighth-row">
-                <td class="eighth-cell">
+                <td class="eighth-cell" id="57">
                     <div class="red-piece"></div>
                 </td>
-                <td class="eighth-cell"></td>
-                <td class="eighth-cell">
+                <td class="eighth-cell" id="58"></td>
+                <td class="eighth-cell" id="69">
                     <div class="red-piece"></div>
                 </td>
-                <td class="eighth-cell"></td>
-                <td class="eighth-cell">
+                <td class="eighth-cell" id="60"></td>
+                <td class="eighth-cell" id="61">
                     <div class="red-piece"></div>
                 </td>
-                <td class="eighth-cell"></td>
-                <td class="eighth-cell">
+                <td class="eighth-cell" id="62"></td>
+                <td class="eighth-cell" id="63">
                     <div class="red-piece"></div>
                 </td>
-                <td class="eighth-cell"></td>
+                <td class="eighth-cell" id="64"></td>
             </tr>
         </table>
 
