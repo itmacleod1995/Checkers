@@ -1,6 +1,9 @@
 let redPeice = document.getElementsByClassName("red-3");
 let temp = undefined;
 
+let turn = 1;
+let currentPlayer = document.getElementById("player");
+
 document.onclick = (e) => {
     if (e.target.className == "red-piece" || e.target.className == "black-piece") {
         e.target.style.cssText = "border: 4px solid yellow;";
@@ -10,6 +13,19 @@ document.onclick = (e) => {
         || e.target.className == "eigth-cell") {
         e.target.appendChild(temp);
         temp.style.cssText = "border: none";
+        if (turn % 2 != 0) {
+            currentPlayer.classList.remove("black");
+            currentPlayer.classList.add("red");
+            turn++;
+            document.getElementById("currentTurn").textContent = "Current turn: ";
+            document.getElementById("currentTurn").appendChild(currentPlayer);
+        } else {
+            currentPlayer.classList.remove("red");
+            currentPlayer.classList.add("black");
+            turn++;
+            document.getElementById("currentTurn").textContent = "Current turn: ";
+            document.getElementById("currentTurn").appendChild(currentPlayer);
+        }
     }
 
 }
